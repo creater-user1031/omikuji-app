@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>吉報みくじ</title>
 </head>
+
 <body>
-    
+    <main>
+        <div class="container">
+
+            <h1 class="title">
+                吉報みくじ
+            </h1>
+
+            <section class="input"> <!-- 入力エリア-->
+
+                <h2>おみくじ</h2>
+                <p>願い事を込めてボタンを押してください</p>
+
+                <textarea class="pray-area" id="wishInput" placeholder="願い事を入力してください"></textarea>
+                <button class="omikuji-button" id="drawButton">
+                    おみくじを引く
+                </button>
+
+            </section>
+
+            <section class="direction" id="direction"> <!--演出エリア-->
+
+            </section>
+
+            <section class="result" id="result"> <!--おみくじ結果エリア-->
+
+                <div class="fortune">
+
+                </div>
+
+                <ul class="omikuji-list">
+                    <li class="wish">
+
+                    </li>
+                    <li class="wait-people">
+
+                    </li>
+                    <li class="search-object">
+
+                    </li>
+                    <li class="work">
+
+                    </li>
+                    <li class="study">
+
+                    </li>
+                    <li class="trip">
+
+                    </li>
+                </ul>
+
+                <div class="remember-wish">
+
+                </div>
+
+            </section>
+
+            <div class="wish-modal"> <!--願い事モーダル-->
+
+                <div class="modal-content">
+                    <div class="wish-appear">
+
+                    </div>
+                    <button class="close">
+
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
 </body>
+
 </html>
